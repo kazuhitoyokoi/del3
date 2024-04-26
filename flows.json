@@ -98,7 +98,7 @@
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<v-file-input v-model=\"files\" @update:modelValue=\"send({payload: files[0]})\" />",
+        "format": "<v-file-input v-model=\"files\" @update:modelValue=\"send({payload: files})\" />",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
