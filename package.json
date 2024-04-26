@@ -2,7 +2,10 @@
     "name": "image-recognition-app4513",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@flowfuse/node-red-dashboard": "1.8.0",
+        "node-red-contrib-tensorflow": "0.4.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
